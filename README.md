@@ -31,4 +31,37 @@ This project was developed as part of Break Through Tech AI's program to explore
 - F1-score: ~0.78
 - Manual logistic regression implementation produced results close to `sklearn`, validating understanding of the underlying math
 
-## 📁 Files
+## 📒 Notebook
+
+All modeling and evaluation steps are documented in `airbnb-modeling.ipynb`, including EDA, preprocessing, and performance comparisons.
+
+## 🧪 Sample Data
+
+A sample of the cleaned NYC Airbnb dataset is included in `data/airbnb_sample.csv` for testing and reproducibility.
+
+## ⚙️ How to Run
+
+```bash
+git clone https://github.com/christylaminated/airbnb-superhost-classification.git
+cd airbnb-superhost-classification
+pip install -r requirements.txt
+jupyter notebook airbnb-modeling.ipynb
+``` ← ADD THIS LINE
+
+## 📊 Visualizations
+
+The notebook includes:
+- Class distribution plot
+- Confusion matrix
+- Model performance comparison chart
+
+## 👤 Contributions
+
+This project was completed individually as part of Break Through Tech AI’s Fall Studio program.
+
+- Class distribution plot
+- Confusion matrix
+- Model performance comparison chart
+## 👤 Contributions
+
+This project was completed individually as part of Break Through Tech AI’s Fall Studio program.
